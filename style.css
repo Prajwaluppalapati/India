@@ -1,0 +1,149 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/*Navbar*/
+nav{
+    position: fixed;
+    background: white;
+    width: 100%;
+    padding: 1%;
+    border-bottom: 3px solid rgba(69, 69, 69, 0.737);
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+    justify-content: center;
+    z-index: 1;
+}
+
+nav a{
+    text-decoration: none;
+    font-size: 20px;
+    color: red;
+    padding: 5px 10px 5px 10px;
+    align-items: center;
+    border-radius: 10px;
+    transition: background 0.3s;
+}
+
+nav a:hover{
+    background: rgba(255, 0, 0, 0.121);
+}
+
+/**Home page**/
+/*Home start*/
+.home_start{
+   height: auto;
+   width: 96%;
+   padding: 2%;
+   z-index: -3;
+}
+
+.start_img{
+   width: 100%;
+   z-index: -2;
+}
+
+.h{
+   position: absolute;
+   margin-top: -50%;
+   margin-left: 5%;
+   color: white;
+  text-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+   font-size: 95px;
+   z-index: 0;
+}
+
+.explore{
+   text-decoration: none;
+   color: red;
+   font-size: 60px;
+   border: 3px solid red;
+   padding: 5px 30px 10px 30px;
+   border-radius: 100px;
+   transition: background 0.3s, color 0.3s;
+}
+
+.explore:hover{
+    background: red;
+    color: white;
+    text-shadow: none;
+}
+
+/*Section 1*/
+.section_1{
+    padding: 2%;
+    font-size: 20px;
+}
+
+.states{
+    border: 1px solid black;
+    border-collapse: collapse;
+    width: 70%;
+}
+
+td, th{
+    padding: 10px;
+}
+
+/*Explore page*/
+.explore_section1{
+    padding: 5% 2% 2% 2%;
+}
+
+/*Travel page*/
+.travel{
+    padding: 5% 2% 2% 2%;
+}
+
+.booking{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.ticket_1{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    background: linear-gradient(to bottom right, rgb(3, 0, 100), rgb(0, 13, 156));
+    color: white;
+    padding: 0px 20px 20px 20px;
+    border-radius: 20px;
+}
+
+.ticket_1 button{
+    padding: 10px;
+    width: 100%;
+    background: rgb(255, 190, 51);
+    border: none;
+    border-radius: 10px;
+    font-size: 15px;
+    transition: background 0.3s;
+    cursor: pointer;
+}
+
+.ticket_1 button:hover{
+    background: rgb(255, 145, 0);
+}
+
+.ticket_1 p{
+    margin-top: 0;
+    font-size: 20px;
+}
+
+/*contact*/
+.contact{
+    padding: 5% 2% 2% 2%;
+    font-size: 20px;
+}
+
+.contact a{
+    color: red;
+}
+
+.contact a:hover{
+    text-decoration: wavy underline;
+}
